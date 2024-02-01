@@ -1,0 +1,3 @@
+Simple Console Based Library System
+
+This project is written in Java and uses Maven build tools for importing dependcies such as the JDBC required to connect to the database. The database of choice for this system is a PostgreSQL DB, which is required to be downloaded, installed and setup running on the localhost machine in order for this code to run and access it. This code will allow for users to access library books stored in the database, add more books to the system, delete them and also check-in/check-out books in the traditional library sense. This project is a simple java console based application that was developed in order to demonstrate my ability to develop Java-based projects with a build tools system and a database.
