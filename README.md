@@ -16,4 +16,4 @@ Commands:
 + docker run --name library_system_container -p 5432:5432 -d library_system_image
 
 ### Run The Java App
-Once the database docker containing is up and running, you can use the LibraryApp.java file to start the application where you will be presented with the main menu of the application. After thism you can interact with the app, viewing all books in the database, check some books in and out as well as delete books from the database and add new ones.
+Once the database docker container is up and running, you can use the LibraryApp.java file to start the application were you will be presented with the main menu of the application. After this you can interact with the app, viewing all books in the database, check some books in and out as well as delete books from the database and add new ones too.
