@@ -4,7 +4,7 @@ This project is written in **Java and uses **Maven build tools for importing dep
 
 ## How To Use:
 ### Download Docker
-Download docker desptop or docker build tools to allow for docker containers to be built and and run.
+Download docker desktop or docker build tools to allow for docker containers to be built and run.
 ### Pull Repo
 You can either clone this repository using ssh or https or download the zip file to get the contents on your machine.
 ### Build Docker Image
@@ -12,8 +12,8 @@ Using the Dockerfile in the repo, you can use the following docker commands to b
 
 Commands:
 '''
-docker build -t my-postgres-image .
-docker run --name my-postgres-container -p 5432:5432 -d my-postgres-image
+docker build -t library_system_image .
+docker run --name library_system_container -p 5432:5432 -d library_system_image
 '''
 
 ### Run The Java App
